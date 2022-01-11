@@ -1,0 +1,27 @@
+{
+	"name": "homepage",
+	"description": "my personal website",
+	"author": "Mehmet Akif Duba <mail@makifdb.com>",
+	"license": "MIT",
+	"version": "1.0.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start"
+	},
+	"dependencies": {
+		"@tailwindcss/typography": "^0.4.1",
+		"next": "10.2.2",
+		"next-mdx": "^0.6.1",
+		"react": "17.0.2",
+		"react-dom": "17.0.2",
+		"react-syntax-highlighter": "^15.4.4",
+		"rehype-prism-plus": "^1.0.0"
+	},
+	"devDependencies": {
+		"autoprefixer": "^10.2.5",
+		"postcss": "^8.3.0",
+		"tailwindcss": "^2.1.2"
+	}
+}

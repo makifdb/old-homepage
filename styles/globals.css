@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	html {
+		@apply bg-black font-mono;
+	}
+
+	a {
+		@apply text-green-700;
+	}
+
+	a:hover {
+		@apply text-green-800;
+	}
+}
+
+@layer components {
+	.site-container {
+		@apply max-w-5xl mx-auto text-gray-400 antialiased px-2 sm:px-4 md:px-8 pb-4;
+	}
+}
