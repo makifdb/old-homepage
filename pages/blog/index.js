@@ -27,7 +27,7 @@ function BlogPage({ posts }) {
 export async function getStaticProps() {
 	return {
 		props: {
-			posts: await getAllNodes('post'),
+			posts: await getAllNodes("post"),
 		},
 	};
 }
