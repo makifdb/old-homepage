@@ -22,7 +22,7 @@ export default function Header() {
 				<Link href={social.github}>
 					<a>Github</a>
 				</Link>
-				<Link href={social.github}>
+				<Link href={social.linkedin}>
 					<a>Linkedin</a>
 				</Link>
 			</nav>
