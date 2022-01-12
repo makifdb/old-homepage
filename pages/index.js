@@ -12,9 +12,10 @@ export default function Home() {
 					I am a <strong>Software Developer</strong> interested in computer
 					systems, automation, internet of things, platforms and developer
 					tooling. For more info about my professional career, visit my{' '}
-					<a href={social.linkedin}>LinkedIn</a> profile. The best way to reach me is to DM me on{' '}
-					<a href={social.twitter}>Twitter</a>. If that doesn't work out, email
-					me at <a href={'mailto:' + author.email}>{author.email}</a>.
+					<a href={social.linkedin}>LinkedIn</a> profile. The best way to reach
+					me is to DM me on <a href={social.twitter}>Twitter</a>. If that
+					doesn't work out, email me at{' '}
+					<a href={'mailto:' + author.email}>{author.email}</a>.
 				</p>
 				<ul className="list-disc pl-8">
 					<li className="pb-4">
